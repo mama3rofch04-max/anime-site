@@ -3,32 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>موقع الأنمي</title>
+  <title>موقع الأنمي | AnimeWorld</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>موقع الأنمي</h1>
+    <div class="logo">🎌 AnimeWorld</div>
     <nav>
-      <a href="#">الرئيسية</a>
+      <a href="#" class="active">الرئيسية</a>
       <a href="#">الحلقات</a>
       <a href="#">حول</a>
     </nav>
   </header>
 
+  <section class="hero">
+    <h1>مرحباً بك في عالم الأنمي</h1>
+    <p>اكتشف أحدث الحلقات والأنميات المميزة يومياً!</p>
+    <a href="#" class="btn">ابدأ المشاهدة</a>
+  </section>
+
   <main>
-    <section class="anime-list">
-      <h2>آخر الحلقات</h2>
+    <h2 class="section-title">🎬 آخر الأنميات</h2>
+    <div class="anime-grid">
       <div class="anime-card">
         <img src="https://i.imgur.com/u6lZt3y.jpg" alt="اسم الأنمي">
-        <h3>اسم الأنمي</h3>
-        <a href="#">مشاهدة الحلقة</a>
+        <h3>Attack on Titan</h3>
+        <a href="#" class="watch-btn">مشاهدة</a>
       </div>
-    </section>
+
+      <div class="anime-card">
+        <img src="https://i.imgur.com/tGbaZCY.jpg" alt="اسم الأنمي">
+        <h3>Demon Slayer</h3>
+        <a href="#" class="watch-btn">مشاهدة</a>
+      </div>
+
+      <div class="anime-card">
+        <img src="https://i.imgur.com/8Km9tLL.jpg" alt="اسم الأنمي">
+        <h3>One Piece</h3>
+        <a href="#" class="watch-btn">مشاهدة</a>
+      </div>
+    </div>
   </main>
 
   <footer>
-    <p>© 2025 موقع الأنمي - جميع الحقوق محفوظة</p>
+    <p>© 2025 AnimeWorld | جميع الحقوق محفوظة</p>
   </footer>
 
   <script src="script.js"></script>
